@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Repository ufficiale dei report di sostenibilità ESG di Enel.">
+    
+    <title>Enel - Repository Sostenibilità ESG</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="#" class="brand-link" aria-label="Torna alla home">
+                <i class="fa-solid fa-bolt brand-icon"></i> 
+                enel <span class="focus-text">sostenibilità</span>
+            </a>
+        </div>
+        
+        <nav class="main-nav" aria-label="Menu principale">
+            <ul>
+                <li><a href="#" class="active"><i class="fa-solid fa-file-contract"></i> Report ESG</a></li>
+                <li><a href="#"><i class="fa-solid fa-chart-line"></i> Investitori</a></li>
+                <li><a href="#"><i class="fa-solid fa-scale-balanced"></i> Governance</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Archivio Report e Bilanci</h1>
+                <p>Trasparenza e dati sulle performance ambientali, sociali e di governance (ESG) del gruppo.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">98%</span>
+                        <span class="stat-label">Rifiuti recuperati</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0g</span>
+                        <span class="stat-label">Emissioni CO2 eq (Net Zero 2040)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="filter-section" aria-label="Filtri ricerca">
+            <div class="filter-container">
+                <span class="filter-label"><i class="fa-solid fa-filter"></i> Filtra per Anno:</span>
+                <button class="filter-btn active" data-year="all">Tutti</button>
+                <button class="filter-btn" data-year="2023">2023</button>
+                <button class="filter-btn" data-year="2022">2022</button>
+            </div>
+        </section>
+
+        <section class="reports-grid" id="reportsGrid">
+            
+            <article class="report-card fade-in" data-year="2023" data-type="sustainability">
+                <div class="card-top-border type-sustainability"></div>
+                <div class="card-header">
+                    <span class="badge year"><i class="fa-regular fa-calendar"></i> 2023</span>
+                    <span class="badge type-sustainability">Sostenibilità</span>
+                </div>
+                <div class="card-body">
+                    <h3>Bilancio di Sostenibilità 2023</h3>
+                    <p>Rendicontazione dettagliata delle performance non finanziarie, KPI ambientali e obiettivi raggiunti.</p>
+                    <div class="meta-info">
+                        <span><i class="fa-solid fa-file-pdf"></i> PDF</span>
+                        <span><i class="fa-solid fa-weight-hanging"></i> 12 MB</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="download-btn" aria-label="Scarica Bilancio Sostenibilità 2023">
+                        <i class="fa-solid fa-download"></i> Scarica Documento
+                    </button>
+                </div>
+            </article>
+
+            <article class="report-card fade-in" data-year="2023" data-type="strategic" style="animation-delay: 0.1s;">
+                <div class="card-top-border type-strategic"></div>
+                <div class="card-header">
+                    <span class="badge year"><i class="fa-regular fa-calendar"></i> 2023</span>
+                    <span class="badge type-strategic">Strategia</span>
+                </div>
+                <div class="card-body">
+                    <h3>Piano Strategico 2024-2026</h3>
+                    <p>Linee guida per la transizione energetica, investimenti nelle rinnovabili e creazione di valore.</p>
+                    <div class="meta-info">
+                        <span><i class="fa-solid fa-file-pdf"></i> PDF</span>
+                        <span><i class="fa-solid fa-weight-hanging"></i> 5 MB</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="download-btn outline" aria-label="Scarica Piano Strategico">
+                        <i class="fa-solid fa-download"></i> Scarica Documento
+                    </button>
+                </div>
+            </article>
+
+             <article class="report-card fade-in" data-year="2022" data-type="governance" style="animation-delay: 0.2s;">
+                <div class="card-top-border type-governance"></div>
+                <div class="card-header">
+                    <span class="badge year"><i class="fa-regular fa-calendar"></i> 2022</span>
+                    <span class="badge type-governance">Governance</span>
+                </div>
+                <div class="card-body">
+                    <h3>Relazione sul Governo Societario</h3>
+                    <p>Analisi della struttura di controllo, remunerazione e gestione dei rischi aziendali.</p>
+                    <div class="meta-info">
+                        <span><i class="fa-solid fa-file-pdf"></i> PDF</span>
+                        <span><i class="fa-solid fa-weight-hanging"></i> 3.5 MB</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="download-btn outline" aria-label="Scarica Relazione Governance">
+                        <i class="fa-solid fa-download"></i> Scarica Documento
+                    </button>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Enel S.p.A. - Tutti i diritti riservati</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+                <li><a href="#">Note Legali</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
